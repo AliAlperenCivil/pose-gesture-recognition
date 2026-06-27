@@ -1,0 +1,14 @@
+# Large model file: download it instead of committing it
+# (see README for the download link)
+pose_landmarker_lite.task
+
+# Python environment / cache
+venv/
+__pycache__/
+*.pyc
+
+# Personal data generated while using the program
+templates.json
+
+# Don't accidentally commit raw (non-blurred) screenshots
+raw_shots/
